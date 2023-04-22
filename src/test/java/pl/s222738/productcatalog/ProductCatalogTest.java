@@ -95,8 +95,6 @@ public class ProductCatalogTest {
                 ProductCantBePublishedException.class,
                 () -> catalog.publishProduct(productId)
         );
-
-
     }
 
     private ProductCatalog thereIsProductCatalog() {
