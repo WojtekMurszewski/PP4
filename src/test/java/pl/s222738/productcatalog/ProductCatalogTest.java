@@ -99,7 +99,7 @@ public class ProductCatalogTest {
 
     private ProductCatalog thereIsProductCatalog() {
         return new ProductCatalog(
-                new DbProductStorage()
+                new HashMapProductStorage()
         );
     }
 
